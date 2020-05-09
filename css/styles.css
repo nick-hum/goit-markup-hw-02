@@ -1,6 +1,104 @@
-body {
+/* styles for index.html */
+
+/* rgba(255, 255, 255, 0.6); футер */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
 }
 
-ul {
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+}
+
+.list {
   list-style: none;
 }
+
+.logo {
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+/* site navigation */
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.address-text {
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.address-text:hover,
+.address-text:focus {
+  color: var(--accent-color);
+}
+
+/* hero */
+.hero {
+  background-color: #e5e5e5;
+  color: #ffffff;
+}
+
+.hero .hero-service {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* main content  */
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.advantages .advantages-list {
+  color: var(--title-text-color);
+}
+
+.section .section-products {
+  color: #ffffff;
+}
+
+.section .team-member {
+  color: var(--title-text-color);
+}
+
+/* footer */
+
+.footer {
+  background-color: #e5e5e5;
+}
+
+.address-footer {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-street {
+  color: #ffffff;
+}
+
+.join {
+  color: #ffffff;
+}
+
+.developers {
+  color: rgba(255, 255, 255, 0.4);
+}
+/* styles for portfolio.html */
